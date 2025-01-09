@@ -5,7 +5,7 @@
     # Call Stack
 """
 
-# Part I
+# Part I: Recursive Sequence
 # A1 = 1
 # An = 2 * A(n-1) + 7
 def recursive_sequence(n):
@@ -15,8 +15,10 @@ def recursive_sequence(n):
     else:        
         return 2 * recursive_sequence(n-1) + 7 
     
-# Part II 
-# Fibonacci Sequence
+#Part II: Fibonacci Sequence
+# 𝐹0 = 0
+# 𝐹1 = 1
+# 𝐹𝑛 = 𝐹𝑛−1 + 𝐹𝑛−2
 def fibonacci(n):
     if n == 0:
         return 0
